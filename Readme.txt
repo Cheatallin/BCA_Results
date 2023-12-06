@@ -19,7 +19,7 @@ In this template, we setup 96-well plate in .xlsx style which is:
     A6~C6 for each 0.4g/l standard
     Ax~Cx for each unknown proteins
 If plate setup followed in that way, then delete all the other empty column
-The "Sample.xlsx" will be shown in this folder
+The "Sample.xlsx" and "Sample.csv" will be shown in this folder
 
 #Notes
 Remember that this template is only having two unknown proteins
