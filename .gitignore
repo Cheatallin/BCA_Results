@@ -3,6 +3,7 @@
 *.csv
 *.xlsx
 *.pdf
+*.log
 
 # allow samples only
 !Sample.*
