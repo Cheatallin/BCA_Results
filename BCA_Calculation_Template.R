@@ -1,3 +1,6 @@
+# turn off warning for a clear output
+options(warn=-1) # -1 to turn off, 0 to turn on
+
 library(readxl)
 library(summarytools)
 library(skimr)
