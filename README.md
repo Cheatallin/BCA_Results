@@ -8,6 +8,10 @@ Please have a check on file "Library.txt" before running for this template
 If it is first time running for this template
 Then please install those packages by copy to your R terminal
 
+```cmd
+install.packages(c("readxl", "summarytools", "skimr", "ggplot2"))
+```
+
 ## BSA Standards
 
 In this template, we have 0.05g/l, 0.1g/l, 0.2g/l and 0.4g/l standard to form linear regression models
