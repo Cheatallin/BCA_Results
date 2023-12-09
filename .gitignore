@@ -1,1 +1,8 @@
 .DS_Store
+*.jpg
+*.csv
+*.xlsx
+*.pdf
+
+# allow samples only
+!Sample.*

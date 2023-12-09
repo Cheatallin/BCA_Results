@@ -1,22 +1,26 @@
 library(readxl)
 library(summarytools)
 library(skimr)
-library(jtools)
-# library(car)
-library(packHV)
-library(psych)
-library(haven)
-library(epiR)
-library(survival)
-library(date)
-library(biostat3)
-library(interactions)
-library(hash)
-library(hashmap)
 library(ggplot2)
 
+# library(jtools)
+# library(car)
+# library(packHV)
+# library(psych)
+# library(haven)
+# library(epiR)
+# library(survival)
+# library(date)
+# library(biostat3)
+# library(interactions)
+# library(hash)
+# library(hashmap)
+
+# Combine all arguments into one string, use "" with the path
+xlsx_path <- commandArgs(trailingOnly = TRUE)
+
 # Reading .xlsx file
-BCA1 = read_xlsx("xlsx_path")
+BCA1 = read_xlsx(xlsx_path)
 BCA1
 
 # Calculating each readings means
