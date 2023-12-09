@@ -12,6 +12,14 @@ Then please install those packages by copy to your R terminal
 install.packages(c("readxl", "summarytools", "skimr", "ggplot2"))
 ```
 
+You can drag and drop your `xlsx` file to `run.bat` if you have setup R and all packages locally. These files will be generated:
+
+- BCA_Graph.jpg
+- output.log
+- Rplots.pdf
+
+Use `run-portable.bat` if you have the R installed on a thumb drive. It supports R 4.1.3 on Windows 7 (32 bit) and up.
+
 ## BSA Standards
 
 In this template, we have 0.05g/l, 0.1g/l, 0.2g/l and 0.4g/l standard to form linear regression models
